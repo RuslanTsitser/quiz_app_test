@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intl/intl.dart';
 import 'package:quiz_app_test/injection/injection.dart';
 import 'package:quiz_app_test/presentation/business_logic/questions/bloc/questions_bloc.dart';
 import 'package:quiz_app_test/presentation/business_logic/results/cubit/results_cubit.dart';

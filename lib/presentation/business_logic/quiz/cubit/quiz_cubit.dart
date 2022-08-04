@@ -42,7 +42,6 @@ class QuizCubit extends Cubit<QuizState> {
       ...state.resultAnswers,
       resultAnswer,
     ];
-    print(resultAnswers);
 
     emit(state.copyWith(
       resultAnswers: resultAnswers,
